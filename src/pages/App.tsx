@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import MenuItem from "./components/MenuItem";
+import MenuItem from "../components/MenuItem";
 import { ChefHat, Clock, Package, Truck } from "lucide-react";
-import ProcessCard from "./components/ProcessCard";
-import TestimonialCarousel from "./components/TestimonialCarousel";
-import ContactForm from "./components/ContactForm";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import ProcessCard from "../components/ProcessCard";
+import TestimonialCarousel from "../components/TestimonialCarousel";
+import ContactForm from "../components/ContactForm";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import { Link } from "react-scroll";
 import { useState, useEffect } from "react";
 import { Mail, Phone, MapPin } from "lucide-react"; // Importing icons
